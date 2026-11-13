@@ -4,7 +4,7 @@ window.R7_CENTERS = [
   "id": "central-san-jose",
   "name": "Central San Jose",
   "kind": "Center",
-  "title": "Sri Sathya Sai Baba Center of Central San Jose",
+  "title": "Sri Sathya Sai Center of Central San Jose",
   "info": [
    "Devotional Service: Sundays - 5 PM to 6:15 PM",
    "Location: Center for Spiritual Living, 1195 Clark St, San Jose, CA",
@@ -19,7 +19,7 @@ window.R7_CENTERS = [
   "id": "elk-grove",
   "name": "Elk Grove",
   "kind": "Center",
-  "title": "Sri Sathya Sai Baba Center of Elk Grove",
+  "title": "Sri Sathya Sai Center of Elk Grove",
   "info": [
    "Location: 7495 Elder Creek Rd, Sacramento, CA",
    "Please call (916) 317-5564 or email elkgrove_sai@yahoo.com for directions and parking instructions.",
@@ -34,7 +34,7 @@ window.R7_CENTERS = [
   "id": "evergreen",
   "name": "Evergreen",
   "kind": "Group",
-  "title": "Sri Sathya Sai Baba Group of Evergreen",
+  "title": "Sri Sathya Sai Group of Evergreen",
   "info": [
    "Location: 3208 Vernazza Ave, San Jose, CA 95135",
    "Meeting Time: Thursdays 7:00 pm to 8:00 pm"
@@ -47,7 +47,7 @@ window.R7_CENTERS = [
   "id": "fremont",
   "name": "Fremont",
   "kind": "Center",
-  "title": "Sri Sathya Sai Baba Center of Fremont",
+  "title": "Sri Sathya Sai Center of Fremont",
   "info": [
    "Location: 40086 Paseo Padre Pkwy, Fremont, CA",
    "Meeting Time: Sundays 3 pm to 5:15 pm",
@@ -63,7 +63,7 @@ window.R7_CENTERS = [
   "id": "fresno",
   "name": "Fresno",
   "kind": "Center",
-  "title": "Sri Sathya Sai Baba Center of Fresno",
+  "title": "Sri Sathya Sai Center of Fresno",
   "info": [
    "Location: 9647 N. Willey Court Fresno, CA 93720",
    "Meeting Time: Thursdays 6:30 pm to 8 pm"
@@ -76,7 +76,7 @@ window.R7_CENTERS = [
   "id": "marin",
   "name": "Marin",
   "kind": "Group",
-  "title": "Sri Sathya Sai Baba Group of Marin",
+  "title": "Sri Sathya Sai Group of Marin",
   "info": [
    "Location: Sausalito CA 94965",
    "Please call 415-272-3806 to confirm location",
@@ -91,7 +91,7 @@ window.R7_CENTERS = [
   "id": "monterey-peninsula",
   "name": "Monterey Peninsula",
   "kind": "Group",
-  "title": "Sri Sathya Sai Baba Group of Monterey Peninsula",
+  "title": "Sri Sathya Sai Group of Monterey Peninsula",
   "info": [
    "Location: 25881 Rancho Alto Drive Carmel, CA 93923",
    "Meeting Time: Thursdays 7:00 pm to 8:30 pm"
@@ -120,7 +120,7 @@ window.R7_CENTERS = [
   "id": "tracy-mountain-house",
   "name": "Tracy/Mountain House",
   "kind": "Center",
-  "title": "Sri Sathya Sai Baba Center of Tracy/Mountain House",
+  "title": "Sri Sathya Sai Center of Tracy/Mountain House",
   "info": [
    "Location: Sri Sathya Sai Baba Abode of Supreme Peace @ 244 W Grant Line Rd, Tracy, CA 95376",
    "Meeting Time: Every Sunday: 4:20 pm - SSE/ Study Circle. 5:30 pm - Devotional Singing"
@@ -133,7 +133,7 @@ window.R7_CENTERS = [
   "id": "oakland",
   "name": "Oakland",
   "kind": "Center",
-  "title": "Sri Sathya Sai Baba Center of Oakland",
+  "title": "Sri Sathya Sai Center of Oakland",
   "info": [
    "Location: Oakland, CA 94602",
    "Please call 510-914-8904 to confirm location",
@@ -147,7 +147,7 @@ window.R7_CENTERS = [
   "id": "peninsula",
   "name": "Peninsula",
   "kind": "Center",
-  "title": "Sri Sathya Sai Baba Center of Peninsula",
+  "title": "Sri Sathya Sai Center of Peninsula",
   "info": [
    "Location: Lodge Building - 40 Twin Pines Lane Belmont, CA 94002",
    "SSE: All Sundays (except summer months) 02:45 pm to 03:45 pm",
@@ -162,7 +162,7 @@ window.R7_CENTERS = [
   "id": "reno-nv",
   "name": "Reno, NV",
   "kind": "Center",
-  "title": "Sri Sathya Sai Baba Center of Reno, NV",
+  "title": "Sri Sathya Sai Center of Reno, NV",
   "info": [
    "Location: Reno, NV 89511",
    "Please call (573) 368-9172 to confirm location",
@@ -176,7 +176,7 @@ window.R7_CENTERS = [
   "id": "sacramento",
   "name": "Sacramento",
   "kind": "Center",
-  "title": "Sri Sathya Sai Baba Center of Sacramento",
+  "title": "Sri Sathya Sai Center of Sacramento",
   "info": [
    "Location: Sai Seva Sadan, 3079 Kilgore Rd, Suite A, Rancho Cordova, CA 95670",
    "Meeting Time: Sundays 2 pm to 5 pm"
@@ -189,7 +189,7 @@ window.R7_CENTERS = [
   "id": "san-bruno",
   "name": "San Bruno",
   "kind": "Group",
-  "title": "Sri Sathya Sai Baba Group of San Bruno",
+  "title": "Sri Sathya Sai Group of San Bruno",
   "info": [
    "Contact details: 650-504-8584"
   ],
@@ -201,7 +201,7 @@ window.R7_CENTERS = [
   "id": "san-francisco",
   "name": "San Francisco",
   "kind": "Center",
-  "title": "Sri Sathya Sai Baba Center of San Francisco",
+  "title": "Sri Sathya Sai Center of San Francisco",
   "info": [
    "Location: 573 South Van Ness Ave San Francisco, CA 94110",
    "Meeting: Thursdays 7 pm to 9:15 pm"
@@ -214,7 +214,7 @@ window.R7_CENTERS = [
   "id": "san-jose",
   "name": "San Jose",
   "kind": "Center",
-  "title": "Sri Sathya Sai Baba Center of San Jose",
+  "title": "Sri Sathya Sai Center of San Jose",
   "info": [
    "1st & 3rd Sundays (3:30PM to 5PM) at 1170 Kern Ave, Sunnyvale, CA 94085 (Shiv Durga Temple)",
    "2nd Sundays (2:45PM to 4:30PM) at 6502 Springpath Ln, San Jose, CA 95120",
@@ -228,7 +228,7 @@ window.R7_CENTERS = [
   "id": "santa-cruz",
   "name": "Santa Cruz",
   "kind": "Center",
-  "title": "Sri Sathya Sai Baba Center of Santa Cruz",
+  "title": "Sri Sathya Sai Center of Santa Cruz",
   "info": [
    "Location: Shambhala Center 920 41st Ave Santa Cruz, CA 95062",
    "Meeting Time: Sundays 5:30 pm to 7 pm"
@@ -241,7 +241,7 @@ window.R7_CENTERS = [
   "id": "santa-rosa",
   "name": "Santa Rosa",
   "kind": "Center",
-  "title": "Sri Sathya Sai Baba Center of Santa Rosa",
+  "title": "Sri Sathya Sai Center of Santa Rosa",
   "info": [
    "Location: Santa Rosa 95403",
    "Please call 707-849-3151 to confirm location",
@@ -255,7 +255,7 @@ window.R7_CENTERS = [
   "id": "stockton",
   "name": "Stockton",
   "kind": "Center",
-  "title": "Sri Sathya Sai Baba Center of Stockton",
+  "title": "Sri Sathya Sai Center of Stockton",
   "info": [
    "Location: 4809 Bridgewater Circle Stockton, CA 95219",
    "Meeting Time: Fridays 7:30 pm to 9:30 pm"
@@ -268,7 +268,7 @@ window.R7_CENTERS = [
   "id": "tri-valley",
   "name": "Tri-Valley",
   "kind": "Center",
-  "title": "Sri Sathya Sai Baba Center of Tri-Valley",
+  "title": "Sri Sathya Sai Center of Tri-Valley",
   "info": [
    "Meeting Time: Sundays 9:30 am - 12 noon",
    "Devotional Singing & Study Circle: 9:30 am to 12 noon;",
@@ -284,7 +284,7 @@ window.R7_CENTERS = [
   "id": "west-san-jose",
   "name": "West San Jose",
   "kind": "Group",
-  "title": "Sri Sathya Sai Baba Group of West San Jose",
+  "title": "Sri Sathya Sai Group of West San Jose",
   "info": [
    "Location: 55558 Castle Glen Avenue, San Jose 95129",
    "Devotion: Every other month-Saturday 4:30 to 6 pm",
