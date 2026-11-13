@@ -3037,6 +3037,16 @@ html.rd-lock { overflow: hidden; }
 .sanctuary .sx-thought .thought-cite { color: var(--gold-lt); }
 .sanctuary .sx-thought .thought-next { margin-top: var(--s4); background: rgba(255, 255, 255, .08); color: #fff; border: 1.5px solid rgba(255, 255, 255, .5); border-radius: 999px; padding: 10px 22px; cursor: pointer; font: 600 .95rem var(--font, "Jost"), sans-serif; }
 .sanctuary .sx-thought .thought-next:hover { background: rgba(255, 255, 255, .16); }
+.sanctuary .sx-thought .thought-image { margin: var(--s3) auto 0; max-width: min(100%, 360px); }
+.sanctuary .sx-thought .thought-image img { width: 100%; height: auto; border-radius: 16px; display: block; box-shadow: 0 18px 40px rgba(0, 0, 0, .28); }
+.sanctuary .sx-thought .thought-image[hidden] { display: none; }
+.sanctuary .sx-thought .thought-source { margin-top: var(--s4); }
+.sanctuary .sx-thought .thought-source a { color: var(--gold-lt); font-weight: 600; font-size: .95rem; text-decoration: underline; text-underline-offset: 3px; }
+.sanctuary .sx-thought .thought-source a:hover { color: #fff; }
+.sanctuary .sx-thought .thought-cite a { color: inherit; text-decoration: underline; text-underline-offset: 3px; }
+.sanctuary .sx-thought .thought-cite a:hover { color: #fff; }
+.sanctuary .sx-thought .thought-next[hidden] { display: none; }
+
 .sanctuary #upcoming-events { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--s3); }
 .sanctuary #upcoming-events .card { margin: 0; padding: var(--s4); border-radius: 22px; background: #fffdf8; border: 1px solid rgba(154, 100, 24, .16); box-shadow: none; display: flex; flex-direction: column; gap: var(--s1); }
 .sanctuary #upcoming-events .card:hover { transform: translateY(-4px); box-shadow: 0 26px 50px rgba(80, 55, 15, .12); }
