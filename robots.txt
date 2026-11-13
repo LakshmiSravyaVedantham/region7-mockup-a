@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://lakshmisravyavedantham.github.io/region7-mockup-a/sitemap.xml
