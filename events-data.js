@@ -60,7 +60,10 @@ window.R7_EVENTS = {
    "text": "Regional 24-hour akhanda bhajan at Aria University, Milpitas.",
    "link": "https://region7saicenters.org/region7new/gab/",
    "linkLabel": "GAB site 2026",
-   "live": true
+   "live": true,
+   "liveLink": "https://www.youtube.com/playlist?list=PLZHVJt9iaNzE",
+   "liveLabel": "Watch the livestream",
+   "liveTitle": "SSSIO REGION 7 GAB - 2026"
   },
   {
    "id": "shivaratri-2027",

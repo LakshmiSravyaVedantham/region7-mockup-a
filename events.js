@@ -22,6 +22,17 @@
   }
   function badgeDay(s, e) { return (+s !== +e && s.getMonth() === e.getMonth()) ? s.getDate() + '–' + e.getDate() : String(s.getDate()); }
 
+  function watchLink(ev, cls) {
+    if (!ev.liveLink) return '';
+    var label = ev.liveLabel || 'Watch the livestream';
+    var title = ev.liveTitle ? ' title="' + esc(ev.liveTitle) + '"' : '';
+    var href = esc(ev.liveLink);
+    if (cls === 'r7-live-btn') {
+      return '<a class="r7-live-btn" href="' + href + '" target="_blank" rel="noopener"' + title + '><span class="r7-live-dot" aria-hidden="true"></span>' + esc(label) + '<svg class="r7-live-play" aria-hidden="true" viewBox="0 0 24 24" width="13" height="13"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></a>';
+    }
+    return '<a class="' + (cls || 'card-link') + '" href="' + href + '" target="_blank" rel="noopener"' + title + '>' + esc(label) + '</a>';
+  }
+
   function upcoming(t, n) {
     var list = [];
     (data.dated || []).forEach(function (ev) {
@@ -60,7 +71,9 @@
       var ev = x.ev;
       var link = (ev.link && ev.id !== featuredId)
         ? '<a class="card-link" href="' + esc(ev.link) + '" target="_blank" rel="noopener">' + esc(ev.linkLabel || 'Event site') + '</a>' : '';
-      if (ev.live) link = '<div class="r7-card-actions">' + link + '<button type="button" class="r7-live-btn" data-r7-live-open><span class="r7-live-dot" aria-hidden="true"></span>Live Streaming<svg class="r7-live-play" aria-hidden="true" viewBox="0 0 24 24" width="13" height="13"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></button></div>';
+      var watch = watchLink(ev, 'r7-live-btn');
+      if (watch) link = '<div class="r7-card-actions">' + link + watch + '</div>';
+      else if (ev.live) link = '<div class="r7-card-actions">' + link + '<button type="button" class="r7-live-btn" data-r7-live-open><span class="r7-live-dot" aria-hidden="true"></span>Live Streaming<svg class="r7-live-play" aria-hidden="true" viewBox="0 0 24 24" width="13" height="13"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></button></div>';
       return '<article class="card"><span class="tag">' + range(x.s, x.e) + '</span><h3>' + esc(ev.title) + '</h3><p>' + esc(ev.text) + '</p>' + link + '</article>';
     }).join('');
   }
@@ -73,6 +86,8 @@
     box.innerHTML = list.map(function (x) {
       var ev = x.ev;
       var link = ev.link ? '<a class="btn btn-sm btn-outline" href="' + esc(ev.link) + '" target="_blank" rel="noopener">' + esc(ev.linkLabel || 'Event site') + '</a>' : '';
+      var watch = watchLink(ev, 'r7-live-btn');
+      if (link || watch) link = '<div class="r7-card-actions">' + link + watch + '</div>';
       return '<article class="event-row"><div class="event-date"><span class="month">' + MON[x.s.getMonth()] + '</span><span class="day">' + badgeDay(x.s, x.e) + '</span></div>' +
         '<div><p class="next-label">' + range(x.s, x.e) + '</p><h3>' + esc(ev.title) + '</h3><p>' + esc(ev.text) + '</p></div>' + link + '</article>';
     }).join('');
@@ -99,6 +114,7 @@
         out += '<section class="cal-month"><h4 class="cal-mh">' + FULL[x.s.getMonth()] + ' ' + x.s.getFullYear() + '</h4><ol class="cal-evs">';
       }
       var link = ev.link ? '<a class="cal-link" href="' + esc(ev.link) + '" target="_blank" rel="noopener">' + esc(ev.linkLabel || 'Event site') + '</a>' : '';
+      link += watchLink(ev, 'cal-link');
       out += '<li class="cal-ev"><span class="cal-date"><span class="cal-m">' + MON[x.s.getMonth()] + '</span><span class="cal-d">' + badgeDay(x.s, x.e) + '</span></span>' +
         '<span class="cal-tx"><span class="cal-when">' + when(x.s, x.e) + '</span><span class="cal-t">' + esc(ev.title) + '</span>' +
         '<span class="cal-p">' + esc(ev.text) + '</span>' + link + '</span></li>';

@@ -1666,7 +1666,8 @@ footer a:hover {
 
 /* Home news rows use the shared small outline button */
 .event-row .btn { white-space: nowrap; justify-self: start; }
-@media (max-width: 960px) { .event-row .btn { grid-column: 2; } }
+.event-row .r7-card-actions { justify-self: start; }
+@media (max-width: 960px) { .event-row .btn, .event-row .r7-card-actions { grid-column: 2; } }
 
 /* —— Grids —— */
 .grid-2 { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; }
@@ -2569,7 +2570,7 @@ a:focus-visible, button:focus-visible, summary:focus-visible { outline: 2px soli
   .ev-upcoming .event-list { padding: 4px 16px; }
   .ev-upcoming .event-row { grid-template-columns: 60px minmax(0, 1fr); gap: 14px; }
   .ev-upcoming .event-date { width: 60px; height: 60px; }
-  .ev-upcoming .event-row .btn { grid-column: 2; }
+  .ev-upcoming .event-row .btn, .ev-upcoming .event-row .r7-card-actions { grid-column: 2; }
 }
 
 /* Events: yearly cards with the same layout and photo size; actions sit at the bottom */
@@ -3168,7 +3169,7 @@ html.rd-lock { overflow: hidden; }
   .sanctuary .rd-tiles-12 > *, .sanctuary .rd-tiles-12 > :last-child:nth-child(odd) { grid-column: span 12; }
   .sx-news, .sanctuary .contact-row.cr-cols-3, .sanctuary .contact-row.cr-cols-2 { grid-template-columns: minmax(0, 1fr); }
   .sanctuary .event-row { grid-template-columns: 60px minmax(0, 1fr); padding: var(--s2); gap: var(--s2); }
-  .sanctuary .event-row .btn { grid-column: 2; justify-self: start; }
+  .sanctuary .event-row .btn, .sanctuary .event-row .r7-card-actions { grid-column: 2; justify-self: start; }
   .sanctuary .event-date { width: 60px; height: 60px; } .sanctuary .event-date .day { font-size: 1.2rem; }
   .sanctuary .event-row h3 { font-size: 1.3rem; }
   .sanctuary .sx-yearly .ev-feature, .sanctuary .sx-yearly .ev-feature:nth-child(even) { grid-template-columns: minmax(0, 1fr); gap: var(--s4); }
