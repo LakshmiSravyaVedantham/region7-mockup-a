@@ -27,6 +27,7 @@ window.R7_EVENTS = {
    "title": "Swami's Birthday",
    "month": 11,
    "day": 23,
+   "skipYears": [2026],
    "text": "Centers and the region celebrate Sri Sathya Sai Baba's Birthday each year."
   },
   {
@@ -64,6 +65,13 @@ window.R7_EVENTS = {
    "liveLink": "https://www.youtube.com/playlist?list=PLZHVJt9iaNzE",
    "liveLabel": "Watch the livestream",
    "liveTitle": "SSSIO REGION 7 GAB - 2026"
+  },
+  {
+   "id": "swami-birthday-2026",
+   "title": "Swami's Birthday",
+   "start": "2026-11-21",
+   "end": "2026-11-21",
+   "text": "Centers and the region celebrate Sri Sathya Sai Baba's Birthday each year."
   },
   {
    "id": "shivaratri-2027",

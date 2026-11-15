@@ -1,6 +1,6 @@
 /* Region 7 Home (and .js-upcoming lists on other pages): date-driven "News and updates" featured event and "Upcoming events" (next 3).
    Data: window.R7_EVENTS from events-data.js (built from tools/events.json).
-   Rules: dated events drop off after their end date; recurring (month/day) events roll to next year.
+   Rules: dated events drop off after their end date; recurring (month/day) events roll to next year; skipYears omits a recurring event for those years.
    Test a date with ?today=YYYY-MM-DD. */
 (function () {
   var data = window.R7_EVENTS;
@@ -40,7 +40,9 @@
       if (e >= t) list.push({ s: s, e: e, ev: ev });
     });
     (data.recurring || []).forEach(function (ev) {
+      var skip = ev.skipYears || [];
       for (var y = t.getFullYear(); y <= t.getFullYear() + 1; y++) {
+        if (skip.indexOf(y) !== -1) continue;
         var d = new Date(y, ev.month - 1, ev.day);
         if (d >= t) { list.push({ s: d, e: d, ev: ev }); break; }
       }
