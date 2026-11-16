@@ -24,7 +24,7 @@
 
   function watchLink(ev, cls) {
     if (!ev.liveLink) return '';
-    var label = ev.liveLabel || 'Watch the livestream';
+    var label = ev.liveLabel || 'Recording';
     var title = ev.liveTitle ? ' title="' + esc(ev.liveTitle) + '"' : '';
     var href = esc(ev.liveLink);
     if (cls === 'r7-live-btn') {

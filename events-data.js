@@ -63,7 +63,7 @@ window.R7_EVENTS = {
    "linkLabel": "GAB site 2026",
    "live": true,
    "liveLink": "https://www.youtube.com/playlist?list=PLZHVJt9iaNzE",
-   "liveLabel": "Watch the livestream",
+   "liveLabel": "Recording",
    "liveTitle": "SSSIO REGION 7 GAB - 2026"
   },
   {
