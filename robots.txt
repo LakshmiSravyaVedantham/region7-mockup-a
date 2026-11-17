@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://lakshmisravyavedantham.github.io/region7-mockup-a/sitemap.xml
+Sitemap: https://region7-mockup-a.vercel.app/sitemap.xml
