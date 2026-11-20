@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://region7-mockup-a.vercel.app/sitemap.xml
+Sitemap: https://region7.sathyasai.us/sitemap.xml
