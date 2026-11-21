@@ -27,7 +27,6 @@ window.R7_EVENTS = {
    "title": "Swami's Birthday",
    "month": 11,
    "day": 23,
-   "skipYears": [2026],
    "text": "Centers and the region celebrate Sri Sathya Sai Baba's Birthday each year."
   },
   {
@@ -60,18 +59,16 @@ window.R7_EVENTS = {
    "end": "2026-11-15",
    "text": "Regional 24-hour akhanda bhajan at Aria University, Milpitas.",
    "link": "https://region7saicenters.org/region7new/gab/",
-   "linkLabel": "GAB site 2026",
-   "live": true,
-   "liveLink": "https://www.youtube.com/playlist?list=PLZHVJt9iaNzE",
-   "liveLabel": "Recording",
-   "liveTitle": "SSSIO REGION 7 GAB - 2026"
+   "linkLabel": "GAB archive"
   },
   {
-   "id": "swami-birthday-2026",
-   "title": "Swami's Birthday",
+   "id": "regional-birthday-celebration-2026",
+   "title": "Regional Birthday Celebration",
    "start": "2026-11-21",
    "end": "2026-11-21",
-   "text": "Centers and the region celebrate Sri Sathya Sai Baba's Birthday each year."
+   "text": "Region 7 celebrates Sri Sathya Sai Baba's November 23 Birthday from 2:00–6:30 PM at Resham Event Center in Fremont.",
+   "link": "https://region7saicenters.org/region7new/birthday/",
+   "linkLabel": "Event details"
   },
   {
    "id": "shivaratri-2027",
