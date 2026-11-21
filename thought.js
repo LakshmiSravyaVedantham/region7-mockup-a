@@ -28,7 +28,7 @@
   }
 
   function showOfficial(data) {
-    if (!data || !data.text) return false;
+    if (!data || !data.text || !isFresh(data.fetchedAt)) return false;
     textEl.textContent = data.text;
     setCite(data.cite || "", data.citeUrl || "");
     if (officialLink) {
@@ -40,8 +40,19 @@
     return true;
   }
 
+  function isFresh(fetchedAt) {
+    if (!fetchedAt) return false;
+    var fetched = new Date(fetchedAt);
+    if (isNaN(fetched.getTime())) return false;
+    var now = new Date();
+    return fetched.getFullYear() === now.getFullYear() &&
+      fetched.getMonth() === now.getMonth() &&
+      fetched.getDate() === now.getDate();
+  }
+
   function showLocal() {
     if (!local.length || !textEl) return;
+    if (officialLink) officialLink.textContent = "Visit sathyasai.org for today's thought";
     var start = new Date(new Date().getFullYear(), 0, 0);
     var day = Math.floor((new Date() - start) / 864e5);
     var i = day % local.length;

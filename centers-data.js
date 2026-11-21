@@ -270,14 +270,12 @@ window.R7_CENTERS = [
   "kind": "Center",
   "title": "Sri Sathya Sai Center of Tri-Valley",
   "info": [
-   "Meeting Time: Sundays 9:30 am - 12 noon",
-   "Devotional Singing & Study Circle: 9:30 am to 12 noon;",
-   "Location: 4036 Ghiotti ct, Pleasanton, CA",
-   "SSE: 11 am to 12 noon;",
-   "Location: 4444 Sandalwood Dr, Pleasanton, CA"
+   "Location: 929 Gray Fox Circle, Pleasanton, CA 94566",
+   "Typical Sundays: devotional singing at 9:30 am and study circle at 11 am.",
+   "SSE classes meet at 11 am during the school year."
   ],
-  "lat": 37.6944225,
-  "lon": -121.8916298,
+  "lat": 37.659862,
+  "lon": -121.840984,
   "directions": true
  },
  {

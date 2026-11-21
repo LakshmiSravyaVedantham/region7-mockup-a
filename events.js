@@ -75,7 +75,6 @@
         ? '<a class="card-link" href="' + esc(ev.link) + '" target="_blank" rel="noopener">' + esc(ev.linkLabel || 'Event site') + '</a>' : '';
       var watch = watchLink(ev, 'r7-live-btn');
       if (watch) link = '<div class="r7-card-actions">' + link + watch + '</div>';
-      else if (ev.live) link = '<div class="r7-card-actions">' + link + '<button type="button" class="r7-live-btn" data-r7-live-open><span class="r7-live-dot" aria-hidden="true"></span>Live Streaming<svg class="r7-live-play" aria-hidden="true" viewBox="0 0 24 24" width="13" height="13"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></button></div>';
       return '<article class="card"><span class="tag">' + range(x.s, x.e) + '</span><h3>' + esc(ev.title) + '</h3><p>' + esc(ev.text) + '</p>' + link + '</article>';
     }).join('');
   }
